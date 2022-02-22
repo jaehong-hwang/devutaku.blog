@@ -1,7 +1,7 @@
-import Document from 'next/document'
+import Document, { DocumentContext } from 'next/document'
 
 class MyDocument extends Document {
-  static async getInitialProps(ctx) {
+  static async getInitialProps(ctx: DocumentContext) {
     const originalRenderPage = ctx.renderPage
 
     // renderPage :  초기 페이지 로드 시 서버 측 자식 구성 요소의 스타일을 분석
