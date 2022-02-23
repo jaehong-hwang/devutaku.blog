@@ -18,3 +18,10 @@ li {
 * {
   box-sizing: border-box;
 }
+
+:root {
+  --white: #fff;
+  --gray: #f3f3f3;
+
+  --content-size: 1200px;
+}

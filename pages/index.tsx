@@ -1,9 +1,12 @@
+import styles from '../styles/common.module.css'
+
 export default function Home() {
   return (
-    <div className="container">
-
-      <main>
-      </main>
+    <div>
+      <section className={styles.contentWrap}>
+        <div className={styles.content}>
+        </div>
+      </section>
     </div>
   )
 }
