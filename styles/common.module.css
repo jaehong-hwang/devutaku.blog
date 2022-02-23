@@ -6,11 +6,13 @@
 }
 
 .logo {
+  font-family: noto-sans-bold;
   font-size: 40px;
   text-align: center;
 }
 
 .logoDescription {
+  font-family: noto-sans-medium;
   font-size: 16px;
   text-align: center;
   color: #333;
@@ -21,8 +23,8 @@
   padding: 6px 8px 7px;
   border-radius: 4px;
   background: var(--dark);
+  font-family: noto-sans-bold;
   color: var(--white);
-  font-weight: bold;
 }
 
 .contentWrap {
@@ -41,6 +43,6 @@
 }
 
 .copyright {
+  font-family: noto-sans-bold;
   font-size: 14px;
-  font-weight: bold;
 }
