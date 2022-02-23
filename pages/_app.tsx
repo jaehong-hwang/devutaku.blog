@@ -1,7 +1,6 @@
 import React from 'react';
 import { AppProps } from 'next/app';
 import Head from 'next/head'
-import styles from '../styles/common.module.css'
 import '../styles/globals.css';
 
 const App = ({ Component, pageProps }: AppProps) => {
@@ -13,18 +12,7 @@ const App = ({ Component, pageProps }: AppProps) => {
 			</Head>
 
 			<main>
-				<header className={styles.headerWrap}>
-					<h1>devutaku</h1>
-					<p>기술 블로그</p>
-				</header>
-
 				<Component {...pageProps} />
-
-				<footer className={styles.footer}>
-					<a href="https://github.com/jaehong-hwang" target="_blank" className={styles.copyright}>
-						Powered by{' '} @devutakus
-					</a>
-				</footer>
 			</main>
 		</>
 	);
